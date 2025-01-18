@@ -1,0 +1,46 @@
+git init — -> to initialize git repository
+git clone url → used to point to an existing repo and make a clone or copy.
+Ex:- git clone https://lnkd.in/gqaR4Wk4
+git add . → to add the files to staging area
+git commit -m “Display msg” → used to move the files to local repository
+git status → to know the latest status
+git log — -> contains the information about the commits
+git log — oneline → used to get the commits information in one line
+git log — author= “username” → to get specific commits information done by the user
+git branch → to see how many branches are there
+git branch branchname → to create new branch
+Ex:- git branch Hemanth
+git checkout branchname → to move one branch to another branch.
+Ex:- git checkout Hemanth
+git merge branchname →used to merge the changes b/w branches
+Ex:- git merge Hemanth
+git branch -d branchname → to delete the branch
+Ex:- git branch -d Hemanth
+git remote -v → to view configured remote addresses
+Ex: origin https://lnkd.in/gqaR4Wk4
+git remote set-url origin remoteurl → To remove the login credentials for that remote
+Ex:- git remote set-url origin https://lnkd.in/gqaR4Wk4
+git remote remove origin → to completely remove the remote from your repository
+git remote add origin https://lnkd.in/gqaR4Wk4 → To add a remote URL to your Git repository
+Ex:- git remote add origin https://lnkd.in/gqaR4Wk4
+git push -u origin — all → to push the changes to remote
+
+git config — global user.name (Name) → to assign the user name
+
+git config — global user.email (email address) → to change the user Email id
+
+git pull → Fetch from and integrate with another repository
+
+git fetch → Download objects and refs from another repository
+
+git revert → Revert some existing commits
+
+git diff → Show changes between commits, commit and working tree, etc
+
+git stash → Stash the changes in a dirty working directory away
+
+To Remove User Settings From Local system:-
+git config — global — unset user.name
+git config — global — unset user.email
+git config — global — unset credential.helper
+git config — global — unset-all →To remove all global settings
