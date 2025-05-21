@@ -4,7 +4,7 @@ Ex:- git clone https://lnkd.in/gqaR4Wk4
 git add . → to add the files to staging area
 git commit -m “Display msg” → used to move the files to local repository
 git status → to know the latest status
-git log — -> contains the information about the commits
+git log — -> contains the information about the commitsegergerg
 git log — oneline → used to get the commits information in one line
 git log — author= “username” → to get specific commits information done by the user
 git branch → to see how many branches are there
